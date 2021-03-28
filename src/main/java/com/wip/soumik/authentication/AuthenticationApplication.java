@@ -1,15 +1,15 @@
-package com.wip.soumik.autthentication;
+package com.wip.soumik.authentication;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.ComponentScan;
 
 @SpringBootApplication
-@ComponentScan(value ={"com.wip.soumik.autthentication","com.wip.soumik.security"})
-public class AutthenticationApplication {
+@ComponentScan(value ={"com.wip.soumik.authentication","com.wip.soumik.security"})
+public class AuthenticationApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(AutthenticationApplication.class, args);
+        SpringApplication.run(AuthenticationApplication.class, args);
     }
 
 }

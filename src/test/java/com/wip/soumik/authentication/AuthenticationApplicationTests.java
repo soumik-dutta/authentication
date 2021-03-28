@@ -1,10 +1,10 @@
-package com.wip.soumik.autthentication;
+package com.wip.soumik.authentication;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class AutthenticationApplicationTests {
+class AuthenticationApplicationTests {
 
     @Test
     void contextLoads() {

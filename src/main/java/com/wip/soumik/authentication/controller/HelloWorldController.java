@@ -1,4 +1,4 @@
-package com.wip.soumik.autthentication.controller;
+package com.wip.soumik.authentication.controller;
 
 import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.GetMapping;
